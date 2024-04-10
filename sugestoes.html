@@ -1,0 +1,54 @@
+<html>
+    <head>
+       <meta charset="utf-8"> 
+        <title>Reclamações do site</title>
+    </head>
+    <body bgcolor="#B0C4DE">
+    <h1 align="center"> Por favor, encaminhe sua reclamação seguindo o formulário abaixo!</h1>
+    <p></p>
+    <form method="post" action="resposta.html">
+        <table bgcolor="#ADD8E6" align="center" border="1" width="50%" height="60%">
+           <tr bgcolor="#87CEEB">
+               <td>
+                 <h2 align="middle">Dados exigidos abaixo:</h2>
+               </td>
+           </tr>
+           <tr>
+               <td>Nome de Usuário:<input type="password" name="nome" value=""></td>
+           </tr>   
+           <tr>
+            <td>Senha do Usuário:<input type="password" name="nome" value=""></td>
+           </tr> 
+           <tr>
+               <td>E-mail registrado:<input type="text" name="email" value=""></td>
+           </tr> 
+           <tr>
+               <td>Tipo de Ocorrência:<select name="Ocorrência">
+                <option value="op1">Mal-funcionamento do site</option>
+                <option value="op2">Notícia falsa</option>
+                <option value="op3">Erros ortográficos</option>
+                <option value="op4">Imagem incorreta</option>
+               </select></td>
+           </tr>
+           <tr>
+               <td>Qual a frequência desses problemas? <input type="radio" name="resposta" value="Frequente">Frequente
+                <input type="radio" name="resposta" value="Moderado">Moderado
+                <input type="radio" name="resposta" value="Quase nunca">Quase nunca
+                <input type="radio" name="resposta" value="Nunca">Nunca</td>
+           </tr>
+           <tr>
+                <td>
+                  Sugestões de melhoria: <textarea cols="20" rows="3" name="Sugestões"></textarea>
+                </td>
+           </tr>
+        </table>
+        <p></p>
+        <table align="center">
+            <tr>
+                <td>
+                    <h4> Clique no botão ao lado para enviar sua reclamação:<input type="submit" name="Enviar" value="Enviar"></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Clique no botão ao lado para limpar suas respostas : <input type="reset" name="Limpar" value="Limpar"></h4>
